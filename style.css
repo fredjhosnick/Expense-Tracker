@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2", sans-serif;
+  width: 100%;
+}
+
+.containerTracker {
+  width: 70%;
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(58, 57, 57);
+  margin: 20px auto;
+  padding: 20px;
+  color: azure;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.containerTracker h1 {
+  font-size: 20px;
+  padding: 10px;
+  border: 3px solid rgb(53, 131, 105);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.containerTracker h1:hover {
+  border: 3px solid azure;
+  color: rgb(53, 131, 105);
+}
+
+.containerTracker > div input {
+  width: 70px;
+  padding: 10px 20px;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Exo 2", sans-serif;
+}
+.containerTracker > div {
+  margin: 5px;
+}
+.containerTracker > div select {
+  width: 120px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(58, 57, 57);
+  outline: none;
+}
+
+.containerTracker > div button {
+  width: 110px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: azure;
+  background-color: rgb(53, 131, 105);
+  cursor: pointer;
+}
+.containerTracker > div button:hover {
+  background-color: azure;
+  color: rgb(53, 131, 105);
+}
+
+.users {
+  border-collapse: collapse;
+  width: 72%;
+  margin: 70px auto 5px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+.users .th,
+.users .td {
+  padding: 8px;
+  border: 1px solid rgb(58, 57, 57);
+  text-align: center;
+}
+.users tr:nth-child(even) {
+  background-color: #f2f2f2;
+  color: rgb(58, 57, 57);
+}
+.users tr:hover {
+  background-color: #ddd;
+}
+.users .th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(53, 131, 105);
+  color: white;
+}
+.users .td {
+  padding: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+.button {
+  width: 110px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: azure;
+  background-color: rgb(190, 16, 16);
+  cursor: pointer;
+}
+#id {
+  display: flex;
+  flex-direction: column;
+}

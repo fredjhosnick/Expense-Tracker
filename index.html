@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="containerTracker">
+      <h1>Expense Tracker</h1>
+      <div class="art">
+        <select name="art" id="art">
+          <option value="essen">Essen</option>
+          <option value="getraenke">Getraenke</option>
+          <option value="klamotte">Klamotte</option>
+          <option value="urlaub">Urlaub</option>
+        </select>
+      </div>
+      <div class="betrag">
+        <label for="betrag">Betrag</label>
+        <input type="text" id="betragInput" />
+      </div>
+
+      <div class="ausgabe">
+        <input type="date" id="datumInput" />
+      </div>
+      <div class="btn" id="btn"><button id="buttonAdd">Add</button></div>
+    </div>
+
+    <table class="users" id="users">
+      <tr>
+        <thead>
+          <th class="th">Art</th>
+          <th class="th">Betrag</th>
+          <th class="th">Datum</th>
+          <th class="th">Delete</th>
+        </thead>
+      </tr>
+
+      <tr id="row">
+        <tbody>
+          <!-- <td id="categories" class="td">Essen</td> 
+        <td id="art" class="td">Essen</td>
+        <td id="amount" class="td">20€</td>
+        <td id="dta" class="td">12.06.2023</td>
+        <td id="button" class="td"><button class="button">Delete</button></td> -->
+        </tbody>
+      </tr>
+
+      <tr>
+        <tfoot>
+          <td class="td">Gesamt:</td>
+          <td class="td" id="gesamt"></td>
+          <td class="td"></td>
+          <td class="td"></td>
+        </tfoot>
+      </tr>
+    </table>
+
+    <script src="tracker.js"></script>
+  </body>
+</html>
