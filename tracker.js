@@ -49,7 +49,7 @@ buttonAdd.addEventListener("click", ()=>{
     btnDelete.addEventListener("click",()=>{
         listsBody.removeChild(listBody);
         gesamt -=amount;
-        totalAcount.innerHTML = gesamt
+        totalAcount.innerHTML = "€" +gesamt
 
     })
 
