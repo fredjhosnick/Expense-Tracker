@@ -87,3 +87,7 @@ totalAcount.innerHTML = "€" +gesamt;
     datumInput.value = "";
 
 });
+localStorage.removeItem("arrayAusgabe");
+localStorage.removeItem("arrayDatum");
+localStorage.removeItem("arrayCategories");
+
