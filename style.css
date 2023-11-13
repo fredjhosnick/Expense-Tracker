@@ -121,6 +121,10 @@ body {
   padding: 8px 20px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
+}
+.btnDelete:hover {
+  background-color: rgb(195, 11, 11);
 }
 .listFoot {
   width: 100%;

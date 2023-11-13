@@ -26,7 +26,7 @@ buttonAdd.addEventListener("click", ()=>{
     let bodyContentAmount = document.createElement("div");
     bodyContentAmount.classList.add('listcontent');
     listBody.appendChild(bodyContentAmount);
-    bodyContentAmount.innerHTML += " $"+  amount   ;
+    bodyContentAmount.innerHTML += " €"+  amount   ;
    
 
     // =========================================================
@@ -54,7 +54,7 @@ buttonAdd.addEventListener("click", ()=>{
     })
 
  gesamt +=amount;
-totalAcount.innerHTML = "$" +gesamt
+totalAcount.innerHTML = "€" +gesamt
 
 
     
