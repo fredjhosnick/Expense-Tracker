@@ -28,35 +28,31 @@
       <div class="btn" id="btn"><button id="buttonAdd">Add</button></div>
     </div>
 
-    <table class="users" id="users">
-      <tr>
-        <thead>
-          <th class="th">Art</th>
-          <th class="th">Betrag</th>
-          <th class="th">Datum</th>
-          <th class="th">Delete</th>
-        </thead>
-      </tr>
+    <div class="listExpense">
+      <div class="listHead">
+        <div class="headContent art">Art</div>
+        <div class="headContent betrag">Betrag</div>
+        <div class="headContent datum">Datum</div>
+        <div class="headContent delete">Delete</div>
+      </div>
+      <div class="listsBody">
+        <!-- <div class="listBody">
+          <div class="listcontent">Essen</div>
+          <div class="listcontent">20$</div>
+          <div class="listcontent">20.03.2022</div>
+          <div class="listcontent">
+            <button class="btnDelete">Delete</button>
+          </div>
+        </div> -->
+      </div>
 
-      <tr id="row">
-        <tbody>
-          <!-- <td id="categories" class="td">Essen</td> 
-        <td id="art" class="td">Essen</td>
-        <td id="amount" class="td">20€</td>
-        <td id="dta" class="td">12.06.2023</td>
-        <td id="button" class="td"><button class="button">Delete</button></td> -->
-        </tbody>
-      </tr>
-
-      <tr>
-        <tfoot>
-          <td class="td">Gesamt:</td>
-          <td class="td" id="gesamt"></td>
-          <td class="td"></td>
-          <td class="td"></td>
-        </tfoot>
-      </tr>
-    </table>
+      <div class="listFoot">
+        <div class="gesamt title">Gesamt</div>
+        <div class="gesamt" id="totalAcount"></div>
+        <div class="gesamt"></div>
+        <div class="gesamt"></div>
+      </div>
+    </div>
 
     <script src="tracker.js"></script>
   </body>
