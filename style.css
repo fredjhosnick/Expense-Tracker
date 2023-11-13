@@ -146,3 +146,82 @@ body {
   background-color: rgb(25, 103, 77);
   color: azure;
 }
+
+@media only screen and (max-width: 1000px) {
+  .containerTracker {
+    width: 70%;
+    height: 12vh;
+    flex-direction: row;
+  }
+  .containerTracker h1 {
+    font-size: 16px;
+    padding: 6px;
+    text-align: center;
+  }
+  .containerTracker > div input {
+    width: 60px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Exo 2", sans-serif;
+  }
+  .containerTracker > div {
+    margin: 5px;
+  }
+  .containerTracker > div select {
+    width: 90px;
+    padding: 10px 0;
+
+    font-size: 13px;
+  }
+
+  .containerTracker > div button {
+    width: 65px;
+  }
+
+  .listExpense {
+    width: 75%;
+    margin: 20px auto;
+  }
+
+  .headContent {
+    width: 100%;
+    border: 1px solid rgb(58, 57, 57);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: azure;
+    padding: 15px;
+  }
+
+  .listcontent {
+    width: 100%;
+    border: 1px solid rgb(58, 57, 57);
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(58, 57, 57);
+    padding: 15px 8px;
+  }
+  .btnDelete {
+    font-size: 18px;
+    padding: 8px 13px;
+  }
+
+  .gesamt {
+    font-size: 20px;
+    padding: 15px 8px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .containerTracker {
+    width: 85%;
+  }
+  .listExpense {
+    width: 92%;
+  }
+}
