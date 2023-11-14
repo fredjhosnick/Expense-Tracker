@@ -28,7 +28,7 @@ buttonAdd.addEventListener("click", ()=>{
     let bodyContentCategories = document.createElement("div");
     bodyContentCategories.classList.add('listcontent');
     listBody.appendChild(bodyContentCategories);
-    bodyContentCategories.innerHTML += art.value;
+    bodyContentCategories.innerHTML += art.value[0].toUpperCase() + art.value.slice(1);;
      // =========================================================
 
      categories.push(art.value);
